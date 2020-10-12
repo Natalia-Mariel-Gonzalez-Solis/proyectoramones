@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  display: flex;
+}
+
+body {
+  background-color: black;
+  background-size: cover;
+}
+
+.style {
+  margin-right: 0;
+}
+
+.rosa {
+  color: palevioletred;
+}
+
+.black {
+  color: black;
+}
+
+.icon {
+  font-size: 48px;
+  color: black;
+}
+
+.icon:hover {
+  transform: scale(1.5) rotate(-10deg);
+  -webkit-transform: scale(1.5) rotate(-10deg);
+  -moz-transform: scale(1.5) rotate(-10deg);
+  -ms-transform: scale(1.5) rotate(-10deg);
+  -o-transform: scale(1.5) rotate(-10deg);
+  transition-duration: 400ms;
+  opacity: 0, 9;
+}
+
+.footer {
+  background: palevioletred;
+  color: black;
+  list-style: none;
+}
+
+.logo {
+  width: 200px;
+  height: auto;
+}
+
+.cajaLoca {
+  position: relative;
+  left: 0px;
+  animation-name: caja;
+  animation-duration: 10s;
+  animation-iteration-count: 1;
+}
+
+@keyframes caja {
+  0% {
+    left: 0px;
+  }
+  50% {
+    left: 420px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+
+.imagen {
+  width: 340px;
+  height: auto;
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transition-duration: 500ms;
+}
+
+.imagen:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transition-duration: 500ms;
+}
+
+textarea {
+  resize: none;
+}
