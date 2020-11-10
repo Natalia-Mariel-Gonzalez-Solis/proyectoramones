@@ -24,6 +24,10 @@ body {
   color: black;
 }
 
+.grey {
+  color: grey;
+}
+
 .icon {
   font-size: 48px;
   color: black;
